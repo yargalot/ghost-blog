@@ -13,19 +13,17 @@ config = {
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
-        // ```
          mail: {
              transport: 'SMTP',
              options: {
                  service: 'Mailgun',
                  auth: {
-                     user: 'postmaster@sandboxfe3a2a12f4534fe894b3ddd7ce449e44.mailgun.org', // mailgun username
-                     pass: '8835ebbe8b371df8e95749a0ec7810d0'  // mailgun password
+                     user: 'postmaster@mg.stevenjohnmiller.com.au', // mailgun username
+                     pass: 'ce65db1269210131b696c0527708f6ba'  // mailgun password
                  }
              },
              from: 'steven.jmiller@gmail.com',
          },
-        // ```
 
         database: {
             client: 'sqlite3',
